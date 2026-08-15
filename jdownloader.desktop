@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=JDownloader
+Comment=Manage direct downloads from many services.
+Exec=jdownloader %U
+Icon=jdownloader
+Terminal=false
+Categories=Network;FileTransfer;
+
