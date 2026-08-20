@@ -5,6 +5,16 @@
   "description": "Manage direct downloads from many services.",
   "version": "2.0",
   "image": "ghcr.io/containerpak/jdownloader:main",
+  "runtime_sources": [
+    {
+      "name": "JDownloader.jar",
+      "url": "https://installer.jdownloader.org/flatpak/2025-11-04/JDownloader.jar",
+      "sha256": "388a1d028e65cbc63933a778ddbc9267c14e7e7858389ce31a10be7308adeb40",
+      "size": 5189769,
+      "installer": "file",
+      "destination": "/opt/jdownloader/JDownloader.jar"
+    }
+  ],
   "binaries": [
     "/usr/bin/jdownloader"
   ],
@@ -57,4 +67,3 @@
     "allowedHostCommands": []
   }
 }
-
