@@ -4,7 +4,7 @@
   "name": "JDownloader",
   "description": "Manage direct downloads from many services.",
   "version": "2.0",
-  "image": "ghcr.io/containerpak/jdownloader@sha256:0acde181aa3a206a5c13a310767d8952c298f1878c883e881e142752c28db9dc",
+  "image": "ghcr.io/containerpak/jdownloader@sha256:4f81b7f731b2a2e73b37a9d9e978d13c977aa3eb2554c8be0ff11bdc6e62c64a",
   "runtime_sources": [
     {
       "name": "JDownloader.jar",
